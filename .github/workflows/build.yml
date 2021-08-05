@@ -10,8 +10,8 @@ jobs:
     name: "Terraform"
     runs-on: ubuntu-latest
     env:
-      AWS_ACCESS_KEY_ID: ${{ SECRETS.ACCESS_KEY }} 
-      AWS_SECRET_ACCESS_KEY: ${{ SECRETS.SECRET_KEY }}
+      AWS_ACCESS_KEY_ID: AKIA2NAS7KRZTG7SOBNR 
+      AWS_SECRET_ACCESS_KEY: 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
       AWS_REGION: 'eu-west-2'
 
     steps:
